@@ -1,0 +1,71 @@
+:root {
+  font-family:
+    "Sora",
+    "Segoe UI",
+    sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #0f172a;
+  background:
+    radial-gradient(circle at top left, rgba(37, 211, 102, 0.18), transparent 25%),
+    radial-gradient(circle at top right, rgba(15, 122, 255, 0.12), transparent 28%),
+    linear-gradient(180deg, #f4fbf7, #eef5ff 42%, #f7f8fc 100%);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --text: #0f172a;
+  --muted: #5b6475;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+}
+
+a {
+  color: inherit;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+
+h1 {
+  font-size: clamp(2.6rem, 5vw, 5.2rem);
+  line-height: 0.98;
+  letter-spacing: -0.05em;
+  margin-bottom: 18px;
+}
+
+h2 {
+  font-size: clamp(1.7rem, 3vw, 2.6rem);
+  line-height: 1.02;
+  letter-spacing: -0.04em;
+}
+
+h3 {
+  font-size: 1.1rem;
+}
+
+#root {
+  min-height: 100vh;
+}
